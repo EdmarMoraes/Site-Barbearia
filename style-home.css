@@ -1,0 +1,105 @@
+/* Feito para zerar as margins e paddins da page*/
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+
+.titulo-principal{
+    padding-left: 20px;
+    position: absolute;
+}
+
+#menu-horizontal ul{
+    list-style: none;
+    padding: 0;
+    position: relative;
+    left: 830px;    
+}
+
+#menu-horizontal ul li{
+    display: inline;
+    margin: 0 0 0 15px;
+   
+}
+
+#menu-horizontal ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    display: inline-block ;
+    transition: color .4s;
+    position: relative;
+}
+
+#menu-horizontal ul li a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+#banner{
+    width: 100%;
+}
+/* main */
+/*Div principal*/
+.titulo-centralizado{
+    text-align: center;
+    
+}
+
+
+p {
+    text-align: center;
+    
+}
+
+#missao {
+    font-size: 20px
+}
+
+em strong{
+    color: red;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
+}
+/* Div beneficios*/
+
+.beneficios{
+    background:  #FFFFFF;
+    padding: 20px;
+}
+.lista-beneficios {       /* itens do beneficios*/
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    
+}
+.itens{                   
+    font-style: italic;
+
+}
+
+.imgbeneficios{
+    width: 50%;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
